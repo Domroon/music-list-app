@@ -38,6 +38,15 @@ body {
   /* grid-gap: 10px; */
   grid-auto-rows: minmax(30px, auto);
   font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hidden-content a {
+  margin: 10px;
+}
+
+.hidden-content a:hover {
+  color: white;
 }
 
 .col-name {
