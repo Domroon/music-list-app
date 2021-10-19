@@ -12,7 +12,7 @@ function Song({ title, interpreter, leadsheet, music, index }) {
       }}
     >
       <div className="song-no border">
-        <p>1</p>
+        <p>{index + 1}</p>
       </div>
       <div className="song-title border">
         <p>{title}</p>
