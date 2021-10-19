@@ -6,7 +6,7 @@ function Song({ title, interpreter, leadsheet, music, index }) {
 
   return (
     <div
-      className={`song-row ${index % 2 == 0 ? "odd" : "even"}`}
+      className={`song-row ${index % 2 === 0 ? "odd" : "even"}`}
       onClick={() => {
         setHiddenContent(!hiddenContent)
       }}
