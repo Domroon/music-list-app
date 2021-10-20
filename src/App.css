@@ -94,3 +94,7 @@ h1 {
   background: rgb(204, 46, 252);
   color: black;
 }
+
+.last {
+  margin: 20px;
+}
