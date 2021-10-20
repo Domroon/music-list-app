@@ -17,7 +17,6 @@ body {
 
 .App {
   text-align: center;
-  width: 100vw;
   height: 100vh;
 }
 
@@ -33,7 +32,8 @@ h1 {
 /* ------------------ LIST ------------------------- */
 
 .music-list {
-  margin: 20px;
+  margin: auto;
+  max-width: 870px;
 }
 
 .name-row {
