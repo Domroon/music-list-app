@@ -22,7 +22,7 @@ function App() {
           return <Song {...song} index={index} />
         })}
       </div>
-      <p className="last">Stand: 20.10.2021, 10:00 Uhr</p>
+      <p className="last">Stand: 14.11.2021, 11:15 Uhr</p>
     </div>
   )
 }
